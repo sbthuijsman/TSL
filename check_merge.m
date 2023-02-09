@@ -1,7 +1,4 @@
 function [flag,W] = check_merge(X,T,TI,i,j,W,R,C,index)
-% global calls;
-% calls=calls+1;
-
 XP = C==C(i);
 for iprime=find(C==C(i))
     for x=find(W(iprime,:))
